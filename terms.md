@@ -77,7 +77,7 @@ We may suspend or end access to the app or its content if these terms are violat
 
 ## Governing law
 
-These terms are governed by the laws of the State of [STATE], without regard to its conflict-of-law rules.
+These terms are governed by the laws of the State of Florida, without regard to its conflict-of-law rules.
 
 ## Contact
 
