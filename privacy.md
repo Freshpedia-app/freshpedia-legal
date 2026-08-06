@@ -3,7 +3,7 @@ title: Privacy Policy
 ---
 # Foodpedia Privacy Policy
 
-**Last updated: July 21, 2026**
+**Last updated: August 5, 2026**
 
 Foodpedia ("the app", "we", "us") is a guide that teaches you how to pick fresh food at the store.
 This policy explains what the app does and does not do with your information.
@@ -16,7 +16,10 @@ It works entirely on your device.
 **We do not collect any personal information.**
 
 The app has no accounts, no sign-up, and no login.
-We never ask for your name, email address, phone number, location, contacts, photos, or payment details.
+We never ask for your name, phone number, location, contacts, photos, or payment details.
+
+The one exception is if **you** choose to contact us: the "Report a problem" link in Settings opens your own email app with a message addressed to us.
+See "Contacting support" below for exactly what that message contains.
 
 The app does not include analytics, advertising, tracking, or crash-reporting services, and it does not build a profile of you or your activity.
 
@@ -26,7 +29,8 @@ The app saves a small amount of information locally on your device so it can rem
 
 - **Saved items.** The guides you mark as favorites.
 - **Purchase status.** Whether premium content has been unlocked on this device.
-- **Display preferences.** Basic settings such as your light or dark appearance choice.
+- **Your shopping list.** Items you add to the in-app list, including any item names you type yourself, quantities, which recipes an item came from, whether you have ticked it off, and when it was added.
+- **Sampler position.** Which guide is currently open as the free "Fruit of the Week", and when it last changed.
 
 This information is stored only in the app's private storage on your device.
 It is never transmitted to us, and we cannot see it.
@@ -36,6 +40,17 @@ Deleting the app removes all of it permanently.
 
 All guides, photographs, and reference material are bundled inside the app itself.
 Browsing guides does not require an internet connection and does not send any request to us.
+
+## Contacting support
+
+Settings has a "Report a problem" link.
+Tapping it opens **your own email app** with a message already addressed to us, pre-filled with three technical details so we can reproduce the problem: your **device manufacturer and model**, your **operating system version**, and the **app version**.
+
+Nothing is sent unless you press send in your own mail app, and you can delete any of it first.
+If you do send it, we receive those details and - because it is an ordinary email - the address you sent it from.
+We use it only to answer you and fix the problem.
+
+The app never sends anything to us on its own.
 
 ## Purchases
 
