@@ -1,10 +1,10 @@
 ---
-title: Foodpedia Legal
+title: Freshpedia Legal
 ---
 
-# Foodpedia Legal
+# Freshpedia Legal
 
-Legal documents for the Foodpedia app.
+Legal documents for the Freshpedia app.
 
 - [Privacy Policy](privacy)
 - [Terms of Use](terms)

@@ -1,11 +1,11 @@
 ---
 title: Privacy Policy
 ---
-# Foodpedia Privacy Policy
+# Freshpedia Privacy Policy
 
-**Last updated: August 5, 2026**
+**Last updated: August 6, 2026**
 
-Foodpedia ("the app", "we", "us") is a guide that teaches you how to pick fresh food at the store.
+Freshpedia ("the app", "we", "us") is a guide that teaches you how to pick fresh food at the store.
 This policy explains what the app does and does not do with your information.
 
 The short version: **the app does not collect, transmit, or sell your personal information.**
@@ -111,4 +111,4 @@ Questions about this policy or about privacy in the app:
 
 **Email:** berrygoodfoodapp@gmail.com
 
-**App:** Foodpedia
+**App:** Freshpedia

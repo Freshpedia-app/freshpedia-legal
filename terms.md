@@ -1,17 +1,17 @@
 ---
 title: Terms of Use
 ---
-# Foodpedia Terms of Use
+# Freshpedia Terms of Use
 
-**Last updated: July 31, 2026**
+**Last updated: August 6, 2026**
 
-Foodpedia ("the app", "we", "us") is a guide that teaches you how to pick and store fresh food.
+Freshpedia ("the app", "we", "us") is a guide that teaches you how to pick and store fresh food.
 These terms explain what you can expect from the app and what we ask of you in return.
 By downloading or using the app, you agree to these terms.
 
 ## What the app is - and is not
 
-Foodpedia provides **general educational information** about selecting and storing food: what fresh produce, meat, and fish tend to look like, common signs of decline, and typical storage guidance.
+Freshpedia provides **general educational information** about selecting and storing food: what fresh produce, meat, and fish tend to look like, common signs of decline, and typical storage guidance.
 
 The app is **not** a food-safety service, and nothing in it is professional, medical, nutritional, or food-safety advice.
 
@@ -85,4 +85,4 @@ Questions about these terms:
 
 **Email:** berrygoodfoodapp@gmail.com
 
-**App:** Foodpedia
+**App:** Freshpedia
