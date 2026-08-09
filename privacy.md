@@ -34,7 +34,12 @@ The app saves a small amount of information locally on your device so it can rem
 
 This information is stored only in the app's private storage on your device.
 It is never transmitted to us, and we cannot see it.
-Deleting the app removes all of it permanently.
+Deleting the app removes it from your device.
+
+**One thing worth knowing about backups.** If you have Android's backup turned on, your phone may copy this app's saved data to **your own Google Drive**, the same way it does for your other apps.
+That is why your favorites and shopping list can reappear when you reinstall the app or set up a new phone.
+That backup belongs to your Google account, not to us - we have no access to it and cannot read it.
+If you want to remove it as well, delete the app's backup from your Google account's backup settings.
 
 ## Content and offline use
 
