@@ -39,6 +39,7 @@ Everything else in the app keeps working without it - the guides never need the 
 
 The app uses the camera **only while you are on the Check it screen**.
 It has no access to your photo library, it never reads photos you already have, and it never saves the picture it takes to your gallery.
+The picture is held in the app's own private storage while you are looking at the result - so you can change which item it was without taking another one - and is deleted the moment you leave that screen.
 
 ### What happens to the picture
 
