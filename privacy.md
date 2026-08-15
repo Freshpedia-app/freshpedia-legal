@@ -1,27 +1,72 @@
 ---
 title: Privacy Policy
 ---
+
 # Freshpedia Privacy Policy
 
-**Last updated: August 6, 2026**
+**Last updated: August 15, 2026**
 
 Freshpedia ("the app", "we", "us") is a guide that teaches you how to pick fresh food at the store.
 This policy explains what the app does and does not do with your information.
 
 The short version: **the app does not collect, transmit, or sell your personal information.**
-It works entirely on your device.
+Everything works on your device, with one exception that you start yourself - the "Check it" camera feature, which is explained in full below.
 
 ## Information we collect
 
 **We do not collect any personal information.**
 
 The app has no accounts, no sign-up, and no login.
-We never ask for your name, phone number, location, contacts, photos, or payment details.
+We never ask for your name, phone number, location, contacts, or payment details, and we never ask for access to your photo library.
 
-The one exception is if **you** choose to contact us: the "Report a problem" link in Settings opens your own email app with a message addressed to us.
+**One feature sends something, and only when you use it.** "Check it" lets you photograph an item so the app can tell you what it is and how ripe it looks.
+Reading the ripeness needs a server, so that picture is sent to be read and then immediately discarded.
+Nothing else in the app ever sends anything.
+The next section describes exactly what happens.
+
+The other thing that can leave your phone only leaves it if **you** send it: the "Report a problem" link in Settings opens your own email app with a message addressed to us.
 See "Contacting support" below for exactly what that message contains.
 
 The app does not include analytics, advertising, tracking, or crash-reporting services, and it does not build a profile of you or your activity.
+
+## The camera and "Check it"
+
+"Check it" lets you point the camera at an item so the app can tell you what it is and how ripe it looks.
+
+**We ask for camera access the first time you use the feature**, at the moment you use it, and the app explains why before your phone asks.
+You can say no.
+Everything else in the app keeps working without it - the guides never need the camera - and you can turn the permission off again at any time in your phone's settings.
+
+The app uses the camera **only while you are on the Check it screen**.
+It has no access to your photo library, it never reads photos you already have, and it never saves the picture it takes to your gallery.
+
+### What happens to the picture
+
+**Working out what the item is happens on your phone.**
+Recognising that you are holding an avocado is done entirely on your device, and that step never sends the picture anywhere.
+
+**Judging how ripe it looks needs a server.**
+For that step, and only that step, the picture is sent over an encrypted (HTTPS) connection to our own service, hosted by Cloudflare, which passes it to **Google's Gemini API** to be read.
+The answer comes back, and **the picture is discarded immediately.**
+
+We do not store it, we do not keep a copy, we do not use it to train anything, and it is never attached to you or to anything else you have done in the app.
+Google processes it for us under its API terms and does not use it to train its models.
+
+Meat and fish are never sent at all.
+The app will happily tell you what a cut of meat is, but it will not judge freshness from a photograph - your nose and hands are far better at that - so there is nothing to send.
+
+### The identifier that travels with each check
+
+Each check carries **a random identifier that your device creates the first time you use the feature**.
+It is not your name, your email, your phone's ID, or anything that can be traced back to you.
+
+It exists for exactly one purpose: our server counts how many checks that identifier has made this week, so the feature stays within its limit.
+That count is stored on our server against the random identifier, expires on its own, and has nothing else attached to it.
+
+### When you have no signal
+
+The ripeness read is the one part of the app that needs a connection.
+Without one the app says so plainly and still shows you the hand-checks - the things a camera could never judge anyway, like weight, smell, and give.
 
 ## Information stored on your device
 
@@ -31,8 +76,9 @@ The app saves a small amount of information locally on your device so it can rem
 - **Purchase status.** Whether premium content has been unlocked on this device.
 - **Your shopping list.** Items you add to the in-app list, including any item names you type yourself, quantities, which recipes an item came from, whether you have ticked it off, and when it was added.
 - **Sampler position.** Which guide is currently open as the free "Fruit of the Week", and when it last changed.
+- **A random identifier for "Check it".** Created on your device the first time you use the camera feature, and used only to count checks against the weekly limit, as described above.
 
-This information is stored only in the app's private storage on your device.
+Apart from that identifier - which is sent with each check and nothing else - this information is stored only in the app's private storage on your device.
 It is never transmitted to us, and we cannot see it.
 Deleting the app removes it from your device.
 
@@ -45,6 +91,9 @@ If you want to remove it as well, delete the app's backup from your Google accou
 
 All guides, photographs, and reference material are bundled inside the app itself.
 Browsing guides does not require an internet connection and does not send any request to us.
+
+The one exception is the ripeness read in "Check it", which needs a connection because the reading happens on a server.
+Identifying an item and every hand-check the app teaches work offline.
 
 ## Contacting support
 
@@ -80,28 +129,39 @@ We do not use this information to identify you, and we do not receive a record o
 ## Children's privacy
 
 The app is a general-audience shopping guide and is not directed at children under 13.
-Because the app collects no personal information from anyone, it collects none from children.
+It asks no one for personal information, so it asks none of children.
+A photo taken with "Check it" is read and discarded without being stored, so nothing from it is retained about anyone.
 If you believe a child has provided us personal information, please contact us - though in practice the app provides no way for this to occur.
 
 ## Data sharing
 
-We do not share, sell, rent, or trade your information, because we do not collect it.
+We do not sell, rent, or trade your information, and we never transfer anything to advertisers, data brokers, or analytics companies.
 
-We do not transfer any information to advertisers, data brokers, or analytics companies.
+Two companies handle data on our behalf, for the "Check it" feature only, and only for as long as a check takes:
+
+- **Cloudflare** hosts the service your photo is sent to. It also stores the weekly count described above.
+- **Google** reads the photo through its Gemini API and returns the answer.
+
+Both act as our processors: they handle the picture to provide the feature and for nothing else.
+They do not receive your name, your email, or any account of yours, because the app has none.
 
 ## Your rights and choices
 
-Because all app data stays on your device and no personal information reaches us, there is nothing for us to retrieve, correct, or delete on your behalf.
+Because no personal information reaches us, there is nothing for us to retrieve, correct, or delete on your behalf.
+"Check it" photos are not stored, so there is no photo of yours for us to hold or hand back; the weekly count is kept against a random identifier that means nothing without your device, and it expires on its own.
 
 You remain in full control:
 
-- **To delete all app data**, uninstall the app.
+- **To stop the app using the camera**, turn off the camera permission in your phone's settings, or simply do not use "Check it". Nothing else in the app depends on it.
+- **To delete all app data**, uninstall the app. That removes the random "Check it" identifier with it.
 - **To manage or cancel a subscription**, use your Google Play or Apple App Store account settings.
 - **To restore a previous purchase**, use "Restore purchases" in the app's Settings screen.
 
 ## Security
 
-Because the app stores information only in its own private storage on your device and sends no personal information anywhere, your data is protected by your device's own security, such as your screen lock and the operating system's app sandboxing.
+The app stores information only in its own private storage on your device, so your data is protected by your device's own security, such as your screen lock and the operating system's app sandboxing.
+
+The one thing the app ever sends - a "Check it" photo - travels over an encrypted HTTPS connection and is discarded as soon as it has been read.
 
 ## Changes to this policy
 
