@@ -1,3 +1,16 @@
-theme: jekyll-theme-primer
-title: Freshpedia Legal
-description: Privacy policy and terms of use for the Freshpedia app
+title: Freshpedia
+description: Know what to buy. A shopping guide for picking fresh produce, meat, and fish.
+
+# Shown in the header and the footer. The company value must match the legal
+# entity name on the D-U-N-S record EXACTLY - Apple compares the website
+# against that record during Organization enrolment, and a mismatch is a
+# rejection rather than a question.
+brand: Freshpedia
+company: Freshpedia LLC
+email: berrygoodfoodapp@gmail.com
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
