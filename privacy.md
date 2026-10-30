@@ -4,13 +4,14 @@ title: Privacy Policy
 
 # Freshpedia Privacy Policy
 
-**Last updated: August 15, 2026**
+**Last updated: October 30, 2026**
 
 Freshpedia ("the app", "we", "us") is a guide that teaches you how to pick fresh food at the store.
 This policy explains what the app does and does not do with your information.
 
-The short version: **the app does not collect, transmit, or sell your personal information.**
-Everything works on your device, with one exception that you start yourself - the "Check it" camera feature, which is explained in full below.
+The short version: **the app has no accounts, never asks who you are, and does not sell your information.**
+Nearly everything works on your device.
+Two things leave it, and both are explained in full below: the "Check it" camera feature, which only runs when you start it, and a purchase check that asks whether this installation has paid.
 
 ## Information we collect
 
@@ -21,8 +22,13 @@ We never ask for your name, phone number, location, contacts, or payment details
 
 **One feature sends something, and only when you use it.** "Check it" lets you photograph an item so the app can tell you what it is and how ripe it looks.
 Reading the ripeness needs a server, so that picture is sent to be read and then immediately discarded.
-Nothing else in the app ever sends anything.
 The next section describes exactly what happens.
+
+**The app also checks whether you have paid.** When it starts, and when you buy or restore, it asks our purchase service whether this installation holds a paid unlock.
+That check carries a random identifier created for this purpose - not your name, your email, or your store account.
+"Purchases" below describes exactly what is sent and why.
+
+Nothing else in the app sends anything.
 
 The other thing that can leave your phone only leaves it if **you** send it: the "Report a problem" link in Settings opens your own email app with a message addressed to us.
 See "Contacting support" below for exactly what that message contains.
@@ -91,7 +97,8 @@ If you want to remove it as well, delete the app's backup from your Google accou
 ## Content and offline use
 
 All guides, photographs, and reference material are bundled inside the app itself.
-Browsing guides does not require an internet connection and does not send any request to us.
+Browsing guides does not require an internet connection, and opening a guide sends no request to us.
+The app does check your purchase status when it starts - see "Purchases" - but that check carries nothing about what you read, and the guides work offline either way.
 
 The one exception is the ripeness read in "Check it", which needs a connection because the reading happens on a server.
 Identifying an item and every hand-check the app teaches work offline.
@@ -105,7 +112,7 @@ Nothing is sent unless you press send in your own mail app, and you can delete a
 If you do send it, we receive those details and - because it is an ordinary email - the address you sent it from.
 We use it only to answer you and fix the problem.
 
-The app never sends anything to us on its own.
+The app never emails us on its own.
 
 ## Purchases
 
@@ -115,6 +122,20 @@ When you make a purchase, the transaction is handled entirely by **Google Play**
 Those services process your payment and share only a confirmation that a valid purchase exists so the app can unlock your content.
 
 **We never receive, see, or store your card number, billing address, or other payment details.**
+
+### Keeping track of what you have paid for
+
+We use **RevenueCat**, a purchase-management service, to tell the app whether this installation holds a paid unlock.
+
+When the app starts, and when you buy or restore a purchase, it sends RevenueCat a **random identifier** that RevenueCat generates for this installation, the **purchase receipt** issued by the store, and basic technical details such as your platform and app version.
+RevenueCat verifies the receipt with Google or Apple and answers yes or no.
+It stores that purchase history against the random identifier, which is what lets you restore a purchase after reinstalling or on a new device.
+
+**RevenueCat is not given your name, your email, or your store account**, because the app has none of them and never asks the store for them.
+
+This check is also what makes refunds and cancellations work honestly: without it, a refunded or cancelled purchase would stay unlocked on the device indefinitely.
+
+RevenueCat acts as our processor and handles this data only to provide this feature: https://www.revenuecat.com/privacy
 
 Payments are governed by the store's own privacy policy:
 
@@ -138,12 +159,13 @@ If you believe a child has provided us personal information, please contact us -
 
 We do not sell, rent, or trade your information, and we never transfer anything to advertisers, data brokers, or analytics companies.
 
-Two companies handle data on our behalf, for the "Check it" feature only, and only for as long as a check takes:
+Three companies handle data on our behalf, each for one feature and nothing else:
 
-- **Cloudflare** hosts the service your photo is sent to. It also stores the weekly count described above.
-- **Google** reads the photo through its Gemini API and returns the answer.
+- **Cloudflare** hosts the service your "Check it" photo is sent to, for as long as the check takes. It also stores the weekly count described above.
+- **Google** reads that photo through its Gemini API and returns the answer.
+- **RevenueCat** confirms whether this installation holds a paid unlock, and stores the purchase history against a random identifier. See "Purchases" above.
 
-Both act as our processors: they handle the picture to provide the feature and for nothing else.
+All three act as our processors: they handle this data to provide the feature and for nothing else.
 They do not receive your name, your email, or any account of yours, because the app has none.
 
 ## Your rights and choices
@@ -154,7 +176,7 @@ Because no personal information reaches us, there is nothing for us to retrieve,
 You remain in full control:
 
 - **To stop the app using the camera**, turn off the camera permission in your phone's settings, or simply do not use "Check it". Nothing else in the app depends on it.
-- **To delete all app data**, uninstall the app. That removes the random "Check it" identifier with it.
+- **To delete all app data**, uninstall the app. That removes the random identifiers from your device. The purchase history held by RevenueCat and by the store outlives it on purpose - it is what "Restore purchases" reads.
 - **To manage or cancel a subscription**, use your Google Play or Apple App Store account settings.
 - **To restore a previous purchase**, use "Restore purchases" in the app's Settings screen.
 
@@ -162,7 +184,8 @@ You remain in full control:
 
 The app stores information only in its own private storage on your device, so your data is protected by your device's own security, such as your screen lock and the operating system's app sandboxing.
 
-The one thing the app ever sends - a "Check it" photo - travels over an encrypted HTTPS connection and is discarded as soon as it has been read.
+Everything the app sends - a "Check it" photo, and the purchase check - travels over an encrypted HTTPS connection.
+The photo is discarded as soon as it has been read.
 
 ## Changes to this policy
 

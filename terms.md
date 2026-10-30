@@ -3,7 +3,7 @@ title: Terms of Use
 ---
 # Freshpedia Terms of Use
 
-**Last updated: August 6, 2026**
+**Last updated: October 30, 2026**
 
 Freshpedia ("the app", "we", "us") is a guide that teaches you how to pick and store fresh food.
 These terms explain what you can expect from the app and what we ask of you in return.
@@ -35,6 +35,10 @@ We never see or store your payment details.
 Prices may change over time.
 Refunds and subscription management are handled through the store's standard policies and your store account settings.
 Purchases unlock content for your personal use in the app; they do not transfer ownership of any content to you.
+
+If you reinstall the app or move to a new device, use **Restore purchases** in Settings to get your paid content back.
+
+The app checks your purchase with the store rather than taking the device's word for it, so **access ends if a purchase is refunded, or if a subscription is cancelled or lapses.**
 
 ## Using the app
 
