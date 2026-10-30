@@ -87,6 +87,6 @@ These terms are governed by the laws of the State of Florida, without regard to 
 
 Questions about these terms:
 
-**Email:** berrygoodfoodapp@gmail.com
+**Email:** freshpediallc@gmail.com
 
 **App:** Freshpedia

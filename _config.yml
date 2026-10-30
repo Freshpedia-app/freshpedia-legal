@@ -7,7 +7,7 @@ description: Know what to buy. A shopping guide for picking fresh produce, meat,
 # rejection rather than a question.
 brand: Freshpedia
 company: Freshpedia LLC
-email: berrygoodfoodapp@gmail.com
+email: freshpediallc@gmail.com
 
 defaults:
   - scope:

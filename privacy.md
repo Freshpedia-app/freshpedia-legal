@@ -198,6 +198,6 @@ The "Last updated" date at the top of this page always reflects the current vers
 
 Questions about this policy or about privacy in the app:
 
-**Email:** berrygoodfoodapp@gmail.com
+**Email:** freshpediallc@gmail.com
 
 **App:** Freshpedia

@@ -23,6 +23,6 @@ Freshpedia is built by a small independent team. We do not collect personal info
 
 ## Get in touch
 
-Questions, corrections, or a guide you want us to add: [berrygoodfoodapp@gmail.com](mailto:berrygoodfoodapp@gmail.com)
+Questions, corrections, or a guide you want us to add: [freshpediallc@gmail.com](mailto:freshpediallc@gmail.com)
 
 We read everything, and we would rather hear that a guide is wrong than have it stay wrong.
